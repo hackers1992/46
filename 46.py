@@ -79,7 +79,7 @@ def login_select():
         sav = open(".login.txt","w")
         sav.write(token)
         sav.close()
-        ham("\r\033[1;32mLogin Successfull \033[0;97m")
+        ham("\n\033[1;32mLogin Successfull \033[0;97m")
         time.sleep(1)
         os.system("xdg-open https://wa.me/+923097992202")
         menu()
